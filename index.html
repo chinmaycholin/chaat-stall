@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaat Stall | Fresh, Tasty & Hygienic Indian Street Food Menu</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explore our premium digital menu featuring the best of Indian street food: Bhelpuri, Shevpuri, Panipuri, Dahipuri, and more. Clean, hygienic, and deliciously traditional.">
+    <meta name="keywords" content="Chaat Stall, Bhelpuri, Panipuri, Shevpuri, Dahipuri, Indian Street Food, Menu, Digital Menu">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Wrapper -->
+    <div class="page-container animate-fade-in">
+        
+        <!-- HEADER / HERO SECTION (Cream Background) -->
+        <header class="hero-section">
+            <div class="hero-container">
+                <!-- Chat Stall SVG Illustration (Left) -->
+                <div class="hero-illustration">
+                    <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg" class="cart-svg">
+                        <!-- Definitions for gradients/patterns -->
+                        <defs>
+                            <linearGradient id="awningGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#184E3A" />
+                                <stop offset="25%" stop-color="#184E3A" />
+                                <stop offset="25%" stop-color="#E8B63D" />
+                                <stop offset="50%" stop-color="#E8B63D" />
+                                <stop offset="50%" stop-color="#184E3A" />
+                                <stop offset="75%" stop-color="#184E3A" />
+                                <stop offset="75%" stop-color="#E8B63D" />
+                                <stop offset="100%" stop-color="#E8B63D" />
+                            </linearGradient>
+                            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#E8B63D" />
+                                <stop offset="100%" stop-color="#C98A12" />
+                            </linearGradient>
+                        </defs>
+
+                        <!-- Cart Awning/Roof (Green and Yellow Stripes) -->
+                        <path d="M 20,40 Q 20,30 30,30 L 170,30 Q 180,30 180,40 L 190,65 Q 190,70 185,70 L 15,70 Q 10,70 10,65 Z" fill="url(#awningGrad)" />
+                        
+                        <!-- Roof Awning Scallops (bottom rounded edge) -->
+                        <path d="M 10,65 Q 17,73 25,65 Q 32,73 40,65 Q 47,73 55,65 Q 62,73 70,65 Q 77,73 85,65 Q 92,73 100,65 Q 107,73 115,65 Q 122,73 130,65 Q 137,73 145,65 Q 152,73 160,65 Q 167,73 175,65 Q 182,73 190,65" fill="#184E3A" />
+                        
+                        <!-- Awning supports (Poles) -->
+                        <rect x="25" y="70" width="5" height="40" fill="#5C4033" />
+                        <rect x="170" y="70" width="5" height="40" fill="#5C4033" />
+                        <rect x="97" y="70" width="6" height="40" fill="#8B5A2B" />
+
+                        <!-- Counter Top (Slab) -->
+                        <rect x="12" y="105" width="176" height="6" fill="#8B5A2B" rx="3" />
+
+                        <!-- Food Items on the Counter -->
+                        <!-- Golgappa/Pani Puri Basket (Left) -->
+                        <path d="M 22,105 C 22,90 48,90 48,105 Z" fill="#D2B48C" stroke="#8B5A2B" stroke-width="1.5" />
+                        <circle cx="28" cy="98" r="3.5" fill="#E8B63D" />
+                        <circle cx="35" cy="95" r="3.5" fill="#E8B63D" />
+                        <circle cx="42" cy="98" r="3.5" fill="#E8B63D" />
+                        <circle cx="31" cy="92" r="3.5" fill="#E8B63D" />
+                        <circle cx="39" cy="92" r="3.5" fill="#E8B63D" />
+                        <circle cx="35" cy="87" r="3.5" fill="#E8B63D" />
+
+                        <!-- Bowl of Sev/Mix (Middle) -->
+                        <path d="M 58,105 C 58,97 82,97 82,105 Z" fill="#E8B63D" stroke="#C98A12" stroke-width="1" />
+                        <path d="M 62,99 Q 70,95 78,99" stroke="#184E3A" stroke-width="1.5" fill="none" />
+
+                        <!-- Chutney Jars (Right) -->
+                        <!-- Red Chutney -->
+                        <rect x="94" y="90" width="10" height="15" fill="#800000" rx="1.5" opacity="0.85" />
+                        <rect x="93" y="88" width="12" height="3" fill="#D3D3D3" rx="1" />
+                        <!-- Green Chutney -->
+                        <rect x="108" y="90" width="10" height="15" fill="#228B22" rx="1.5" opacity="0.85" />
+                        <rect x="107" y="88" width="12" height="3" fill="#D3D3D3" rx="1" />
+
+                        <!-- Cart Body (Yellow Main Panel) -->
+                        <path d="M 18,111 L 18,148 Q 18,154 24,154 L 176,154 Q 182,154 182,148 L 182,111 Z" fill="url(#goldGrad)" />
+                        
+                        <!-- Internal Cart Board (Green) -->
+                        <rect x="26" y="117" width="148" height="30" fill="#184E3A" rx="4" />
+                        <!-- "CHAAT STALL" text on cart -->
+                        <text x="100" y="130" font-family="'Poppins', sans-serif" font-weight="800" font-size="11" fill="#FFF8EC" text-anchor="middle" letter-spacing="1">CHAAT</text>
+                        <text x="100" y="142" font-family="'Poppins', sans-serif" font-weight="800" font-size="11" fill="#E8B63D" text-anchor="middle" letter-spacing="1">STALL</text>
+
+                        <!-- Cart Wheels -->
+                        <!-- Left Big Wheel -->
+                        <circle cx="45" cy="158" r="18" fill="#1E1E1E" />
+                        <circle cx="45" cy="158" r="14" fill="#FFF8EC" />
+                        <circle cx="45" cy="158" r="4" fill="#1E1E1E" />
+                        <!-- Spokes -->
+                        <line x1="45" y1="140" x2="45" y2="176" stroke="#1E1E1E" stroke-width="1.5" />
+                        <line x1="27" y1="158" x2="63" y2="158" stroke="#1E1E1E" stroke-width="1.5" />
+                        <line x1="32" y1="145" x2="58" y2="171" stroke="#1E1E1E" stroke-width="1" />
+                        <line x1="32" y1="171" x2="58" y2="145" stroke="#1E1E1E" stroke-width="1" />
+
+                        <!-- Right Stand/Leg -->
+                        <rect x="150" y="154" width="8" height="15" fill="#1E1E1E" rx="1" />
+                        <line x1="146" y1="169" x2="162" y2="169" stroke="#1E1E1E" stroke-width="3" stroke-linecap="round" />
+
+                        <!-- Decorative little steam waves -->
+                        <path d="M 65,88 Q 63,83 67,78" stroke="#E8B63D" stroke-width="1.5" fill="none" stroke-linecap="round" />
+                        <path d="M 75,86 Q 73,81 77,76" stroke="#E8B63D" stroke-width="1.5" fill="none" stroke-linecap="round" />
+                    </svg>
+                </div>
+
+                <!-- Hero Text (Right) -->
+                <div class="hero-text">
+                    <div class="brand-title">
+                        <span class="left-rays"></span>
+                        <h1 class="main-heading">
+                            <span class="text-green">CHAAT</span>
+                            <span class="text-yellow">STALL</span>
+                        </h1>
+                        <span class="right-rays"></span>
+                    </div>
+                    
+                    <!-- Tagline with Decorative Lines -->
+                    <div class="tagline-container">
+                        <span class="deco-line"></span>
+                        <p class="tagline-text">Fresh &bull; Tasty &bull; Hygienic</p>
+                        <span class="deco-line"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Decorative Brush Separator (Between Cream & Dark Green) -->
+        <div class="section-separator">
+            <svg viewBox="0 0 1440 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- A wavy organic edge that separates the sections -->
+                <path d="M0,0 Q120,35 240,20 T480,15 T720,28 T960,18 T1200,25 T1440,5 L1440,40 L0,40 Z" fill="#184E3A" />
+            </svg>
+        </div>
+
+        <!-- MAIN CONTENT / MENU SECTION (Dark Green Background) -->
+        <main class="menu-section">
+            <div class="menu-wrapper">
+                
+                <!-- Centered MENU Ribbon -->
+                <div class="ribbon-container">
+                    <div class="ribbon-rays-left">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="menu-ribbon">
+                        <h2>MENU</h2>
+                    </div>
+                    <div class="ribbon-rays-right">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+
+                <!-- Dynamic Menu Cards Grid -->
+                <div id="menu-grid" class="menu-grid">
+                    <!-- Cards will be injected here dynamically by script.js -->
+                </div>
+
+            </div>
+        </main>
+
+        <!-- FOOTER SECTION (Rounded Dark Green Card Context) -->
+        <footer class="footer-section">
+            <div class="footer-card">
+                
+                <!-- Chef Hat SVG Icon -->
+                <div class="chef-icon-container">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="chef-svg">
+                        <!-- Chef Hat Base -->
+                        <path d="M 30,70 L 70,70 L 68,82 L 32,82 Z" fill="#FFF8EC" />
+                        <!-- Hat Base Border Lines -->
+                        <line x1="35" y1="75" x2="65" y2="75" stroke="#184E3A" stroke-width="2" />
+                        <line x1="35" y1="78" x2="65" y2="78" stroke="#184E3A" stroke-width="2" />
+                        
+                        <!-- Puffy Hat Top -->
+                        <path d="M 30,70 C 15,65 15,40 32,42 C 32,25 68,25 68,42 C 85,40 85,65 70,70 Z" fill="#FFF8EC" />
+                    </svg>
+                </div>
+
+                <!-- Thank You Message -->
+                <h3 class="thank-you-title">Thank you!</h3>
+                <p class="visit-again">Visit Again</p>
+                
+                <span class="heart-icon">♥</span>
+
+
+
+                <!-- Copyright / Attribution -->
+                <div class="footer-bottom">
+                    <p class="made-with">Made with ❤️ for Chat Stall</p>
+                    <p class="copyright">&copy; 2026 Chaat Stall. All Rights Reserved.</p>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+
+
+
+    <!-- Core Script -->
+    <script src="script.js"></script>
+</body>
+</html>
