@@ -113,7 +113,7 @@ body {
 .brand-subtext {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--accent-gold);
+    color: var(--primary-green);
     letter-spacing: 3px;
     text-transform: uppercase;
     line-height: 1.0;
