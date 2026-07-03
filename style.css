@@ -426,11 +426,7 @@ body {
     line-height: 1.1;
 }
 
-.price-badge .currency {
-    font-size: 0.7rem;
-    font-weight: 500;
-    text-transform: lowercase;
-}
+
 
 /* Leaf Ornaments surrounding Price Badge (matching poster) */
 .leaf-twig {
@@ -764,9 +760,7 @@ body {
         font-size: 0.8rem;
     }
     
-    .price-badge .currency {
-        font-size: 0.45rem;
-    }
+
     
     .leaf-twig {
         width: 14px;

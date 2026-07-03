@@ -88,7 +88,6 @@ function renderMenu() {
                 </div>
                 <div class="price-badge">
                     <span class="amount">₹${item.price}</span>
-                    <span class="currency">rs</span>
                 </div>
                 <div class="leaf-twig-container leaf-right">
                     ${leafSvgMarkup}
