@@ -32,7 +32,7 @@
 }
 
 body {
-    background-color: var(--cream);
+    background-color: var(--primary-green);
     font-family: var(--font-body);
     color: var(--dark-text);
     overflow-x: hidden;
@@ -45,6 +45,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: var(--primary-green);
 }
 
 /* ==========================================================================
