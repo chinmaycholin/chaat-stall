@@ -103,13 +103,30 @@ body {
 
 .main-heading {
     font-family: var(--font-heading);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    line-height: 1.0;
+}
+
+.brand-subtext {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.0;
+}
+
+.brand-maintext {
     font-weight: 800;
     font-size: 3.5rem;
-    line-height: 1.1;
     letter-spacing: -1px;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    line-height: 1.1;
 }
 
 .text-green {
@@ -565,7 +582,18 @@ body {
     }
     
     .main-heading {
-        font-size: 2.5rem;
+        align-items: flex-start;
+        gap: 1px;
+    }
+    
+    .brand-subtext {
+        font-size: 0.9rem;
+        letter-spacing: 1.5px;
+    }
+    
+    .brand-maintext {
+        font-size: 2.3rem;
+        gap: 8px;
     }
     
     .tagline-text {
@@ -614,9 +642,18 @@ body {
     }
     
     .main-heading {
+        align-items: flex-start;
+        gap: 0px;
+    }
+    
+    .brand-subtext {
+        font-size: 0.65rem;
+        letter-spacing: 1px;
+    }
+    
+    .brand-maintext {
         font-size: 1.55rem;
-        gap: 4px;
-        justify-content: flex-start;
+        gap: 6px;
     }
     
     .left-rays, .right-rays {
